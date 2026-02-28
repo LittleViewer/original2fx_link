@@ -63,6 +63,6 @@ Every successful conversion is appended to `save_output.txt` in the following fo
 
 ## Documentation FxTwitter
 
-Pour en savoir plus sur les options et fonctionnalités de FxTwitter :
+To learn more about FxTwitter options and features:
 https://docs.fxtwitter.com/en/latest/
 
