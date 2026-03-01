@@ -5,6 +5,7 @@ class util:
 
     def absolute_link(self, link):
         return os.path.join(os.path.dirname(os.path.abspath(__file__)), link)
+
     
     def error_with_reason(self, reason, to_break = False, code = 1000):
         print(f"[{self.date_}] - Stop Reason: " + reason)
