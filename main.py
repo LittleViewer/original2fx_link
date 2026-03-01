@@ -30,7 +30,8 @@ while True:
             except:
                 luC_.error_with_reason("Not good link format")
 
-
+        elif event == "ctrl+h":
+             pyperclip.copy(ofC_.pipe_copy_history())
 
         elif event == "ctrl+q":
             luC_.error_with_reason("Stop program", True)
