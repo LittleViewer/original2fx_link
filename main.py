@@ -10,6 +10,10 @@ ofC_ = ofC.output_file()
 code_country = "fr"
 is_clic = False 
 list_un_authorized_account = set(ofC_.pipe_un_authorized_account())
+
+
+pyperclip.copy("**[original2fx_link](https://github.com/LittleViewer/original2fx_link)**, provided by *[LittleViewer](<https://github.com/LittleViewer>)*, aims to simplify the use of the X (twitter) embed repair system via the [FxTwitter](<https://github.com/FixTweet/FxTwitter>).) tool.")
+
 while True:
         
         event = keyboard.read_hotkey(suppress=False)
