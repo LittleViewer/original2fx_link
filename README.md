@@ -56,6 +56,7 @@ If you attempt to convert a link from a blocked account, the program will:
 - Print a warning message in the console
 - Copy the warning message to the clipboard instead of the converted link
 - **Not** log the attempt to `save_output.txt`
+>The username is the one found in the twitter account link: https://x.com/[here] and for posts: https://x.com/[here]/status/0000
 
 ## Log output
 
