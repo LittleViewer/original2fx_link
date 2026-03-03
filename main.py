@@ -32,7 +32,7 @@ while True:
                     print(new_formated_link)
                
                     date_hours_minute = str(datetime.datetime.now()).split('.')
-                    pyperclip.copy(f"[ {date_hours_minute[0]} - [{copy_list[3]}](<https://x.com/{copy_list[3]}>) - {new_formated_link} ]")
+                    pyperclip.copy(f"[ {date_hours_minute[0]} - [{copy_list[3]}](<https://x.com/{copy_list[3]}>) ]\n{new_formated_link} \n*[original2fx_link](<https://github.com/LittleViewer/original2fx_link>), provided by [LittleViewer](<https://github.com/LittleViewer>)*")
                 
                     output_save =  {"date_time" :str(datetime.datetime.now()), "account": copy_list[3], "link_account" : f"https://x.com/{copy_list[3]}", "id_post" : copy_list[5], "original_link" : copy, "new_formated_link" : new_formated_link}
                     ofC_.pipe_output(output_save)
